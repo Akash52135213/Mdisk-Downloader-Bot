@@ -16,9 +16,9 @@ from split import TG_SPLIT_SIZE
 
 
 # app
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "5966161930:AAE0OVGrrlWTnWb3B8xU1FszTW7KI-_sE1s") 
+api_hash = os.environ.get("HASH", "cdd5c820cb6abeecaef38e2bb8db4860") 
+api_id = os.environ.get("ID", "10389378")
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # preiumum
